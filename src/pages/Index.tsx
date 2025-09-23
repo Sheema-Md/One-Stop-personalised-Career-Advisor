@@ -44,12 +44,12 @@ const Index = () => {
     }
   ];
 
-  const stats = [
-    { number: "10,000+", label: "Students Guided" },
-    { number: "500+", label: "Government Colleges" },
-    { number: "100+", label: "Active Scholarships" },
-    { number: "95%", label: "Success Rate" }
-  ];
+  // const stats = [
+  //   { number: "10,000+", label: "Students Guided" },
+  //   { number: "500+", label: "Government Colleges" },
+  //   { number: "100+", label: "Active Scholarships" },
+  //   { number: "95%", label: "Success Rate" }
+  // ];
 
   const benefits = [
     "Authentic data from AISHE, UGC, AICTE",
@@ -70,9 +70,9 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div>
-                <Badge className="mb-4 bg-gradient-hero text-primary-foreground">
+              {/*  <Badge className="mb-4 bg-gradient-hero text-primary-foreground">
                   Trusted by 10,000+ Students
-                </Badge>
+                </Badge> */}
                 <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
                   Your Path to the
                   <span className="bg-gradient-hero bg-clip-text text-transparent"> Right Career</span>
@@ -94,7 +94,7 @@ const Index = () => {
                 </Button>
               </div>
 
-              {/* Stats */}
+              {/* Stats 
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-8 border-t border-border">
                 {stats.map((stat, index) => (
                   <div key={index} className="text-center">
@@ -102,8 +102,8 @@ const Index = () => {
                     <p className="text-sm text-muted-foreground">{stat.label}</p>
                   </div>
                 ))}
-              </div>
-            </div>
+              </div> */}
+            </div> 
 
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-strong">
@@ -115,7 +115,7 @@ const Index = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
               </div>
               {/* Floating cards */}
-              <Card className="absolute -bottom-6 -left-6 w-48 shadow-medium">
+            {/*  <Card className="absolute -bottom-6 -left-6 w-48 shadow-medium">
                 <CardContent className="pt-4">
                   <div className="flex items-center gap-2">
                     <Star className="w-4 h-4 text-secondary fill-secondary" />
@@ -123,7 +123,7 @@ const Index = () => {
                   </div>
                   <p className="text-xs text-muted-foreground">Students found their ideal colleges</p>
                 </CardContent>
-              </Card>
+              </Card>*/}
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Why Choose CareerGuide?</h2>
+              <h2 className="text-3xl font-bold mb-6">Why Choose NextStep?</h2>
               <p className="text-lg text-muted-foreground mb-8">
                 We leverage authentic data from government sources to provide you with the most accurate and up-to-date information for your career decisions.
               </p>
@@ -184,7 +184,7 @@ const Index = () => {
               </div>
             </div>
 
-            <Card className="shadow-strong">
+           {/* <Card className="shadow-strong">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Users className="w-5 h-5 text-primary" />
@@ -210,7 +210,7 @@ const Index = () => {
                   </p>
                 </div>
               </CardContent>
-            </Card>
+            </Card>*/}
           </div>
         </div>
       </section>
@@ -247,7 +247,7 @@ const Index = () => {
               <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
                 <GraduationCap className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">CareerGuide</span>
+              <span className="text-xl font-bold">NextStep</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Empowering students with authentic government data for informed career decisions
