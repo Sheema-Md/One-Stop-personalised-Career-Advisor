@@ -25,7 +25,7 @@ const App = () => (
           <Route path="/scholarships" element={<Scholarships />} />
           <Route path="/dashboard" element={<Dashboard />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
+          
         </Routes>
       </HashRouter>
     </TooltipProvider>
